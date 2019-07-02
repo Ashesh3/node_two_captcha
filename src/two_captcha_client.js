@@ -184,7 +184,7 @@ class TwoCaptchaClient {
       url: baseUrl.replace('<action>', action),
       timeout: this.timeout,
       method: method,
-      payload: { ...payload, key: this.key, soft_id: 2386 }
+      payload: { ...payload, key: this.key, soft_id: 2370 }
     });
 
     this._validateResponse(req);
