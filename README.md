@@ -5,14 +5,14 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/78356b38afac3763f1fe/maintainability)](https://codeclimate.com/github/infosimples/node_two_captcha/maintainability)
 
 Node TwoCaptcha is a Javascript package for 2Captcha -
-[2Captcha.com](http://2captcha.com/?from=1025109).
+[2Captcha.com](http://2captcha.com/?from=4615613).
 
 ## Installation
 
 Just run:
 
 ```bash
-npm install @infosimples/node_two_captcha
+npm install node_two_captcha
 ```
 
 JSDoc documentation can be found at https://infosimples.github.io/node_two_captcha/
@@ -23,7 +23,7 @@ JSDoc documentation can be found at https://infosimples.github.io/node_two_captc
 
 ```javascript
 // Import module
-const Client = require('@infosimples/node_two_captcha');
+const Client = require('node_two_captcha');
 
 // Declare your client
 client = new Client('your_2captcha_key', {
